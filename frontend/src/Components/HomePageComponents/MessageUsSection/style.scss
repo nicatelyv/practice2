@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.MessageUsSection{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa ;
+    .MessageUsSectionMain{
+        width: 40%;
+        height: 95vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h2{
+            font-size: 45px;
+            font-weight: bold;
+        }
+        p{
+            line-height: 1.75rem;
+            width: auto;
+            color: black;
+            opacity: 0.5;
+            font-size: 18px;
+            font-weight: 100;
+        }
+        &>div{
+            display: flex;
+            justify-content: space-between;
+            #fname{
+                width: 290px;
+                height: 45px;
+                outline: none;
+                padding-left: 20px;
+                background-color: white;
+                outline: none;
+            }
+            #lname{
+                width: 290px;
+                height: 45px;
+                outline: none;
+                padding-left: 20px;
+                background-color: white;
+                outline: none;
+            }
+        }
+        input{
+            width: auto;
+            height: 45px;
+            outline: none;
+            border-radius: 6px;
+            border: 1px solid rgb(212, 207, 207);
+            background-color: white;
+            padding-left: 20px;
+            font-size: 16px;
+        }
+        #writeinp{
+            padding-bottom: 150px;
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+        }
+        button{
+            width: 250px;
+            height: 50px;
+            background-color: #7971ea;
+            font-size: 12px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: 900;
+            color: #fff;
+            border: none;
+        }
+        button:hover{
+            background-color: #5a50e5;
+        }
+    }
+}
